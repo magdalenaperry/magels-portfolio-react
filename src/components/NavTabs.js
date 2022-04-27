@@ -10,6 +10,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         <img src={Headshot} alt="" />
     </header>
 
+    <h1 className="text-uppercase text-center">Magdalena Perry</h1>
+
     <ul className="nav nav-tabs text-center navItems">
       <li className="nav-item py-3">
         <a

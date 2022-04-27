@@ -14,3 +14,8 @@
   background-color: rgba(211, 211, 211, 0.105);
   text-decoration: n
 }
+
+h1 {
+  letter-spacing: 20px;
+  font-weight: 100px;
+}

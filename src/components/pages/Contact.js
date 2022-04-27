@@ -16,7 +16,7 @@ export default function Contact() {
 
                 <div className="row">
 
-                  <div className="col-md-6">
+                  <div className="col-md-6 form-group">
                     <div className="md-form mb-0">
                       <input
                         type="text"
@@ -26,11 +26,12 @@ export default function Contact() {
                     </div>
                   </div>
 
-                  <div className="col-md-6">
-                    <div className="md-form mb-0">
+                  <div className="col-md-6 form-group">
+                    <div className="md-form mb-0 form-group">
                       <input
-                        type="text"
-                        id="email"
+                        type="email"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
                         name="email"
                         placeholder='Email'
                         className="form-control mb-3"></input>
@@ -62,19 +63,20 @@ export default function Contact() {
 
                   </div>
                 </div>
+              <div className="text-center text-md-left col-12 mt-5">
+                <button type="submit" className="btn btn-primary btn-block">Send</button>
+              </div>
 
               </form>
 
-              <div className="text-center text-md-left col-12 mt-5">
-                <button className="btn btn-primary btn-block">Send</button>
-              </div>
             </div>
 
             <div className="col-md-3 text-center">
-              <ul className="list-unstyled mb-0">
+              <ul className="list-unstyled mb-0 text-secondary">
                 <li> < FaMapMarkerAlt />
                 </li>
-                <p>Charlotte, NC</p>
+                <li>Charlotte, NC </li>
+                
 
                 <li><FaPhone /></li>
                 <li> <a className="text-decoration-none text-secondary" href="tel:1234567890">(123) 456-7890 </a>
