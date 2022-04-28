@@ -2,22 +2,17 @@
 import React from 'react';
 import ProjectCard from './ProjectCard'
 import projectData from '../../utils/projectData'
-import Chiron from '../../images/chiron.png'
-import Cosmic from '../../images/cosmic-dust.png'
-import Weather from '../../images/weather-dash.png'
-import LosAmigos from '../../images/losamigos.png'
-import TechBlog from '../../images/tech.png'
-import Portfolio from '../../images/portfolio.png'
 
 
-const images = [
-  Chiron, 
-  Cosmic, 
-  LosAmigos,
-  TechBlog,
-  Portfolio,
-  Weather
-];
+
+// const images = [
+//   Chiron, 
+//   Cosmic, 
+//   LosAmigos,
+//   TechBlog,
+//   Portfolio,
+//   Weather
+// ];
 
 
 export default function Projects({ project }) {
@@ -29,7 +24,7 @@ export default function Projects({ project }) {
         <section className='col-12'>
           {projectData.map( (project, i ) => (
             // ... spreads out project object can access name, 
-            <ProjectCard {...project} srcImage={images[i]} />
+            <ProjectCard {...project} />
           ))}
 
         </section>

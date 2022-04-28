@@ -21,7 +21,7 @@ const styles = {
 }
 
 export default function ProjectCard({ 
-  srcImage,
+  imgUrl,
   deployUrl,
   name,
   ghUrl
@@ -36,7 +36,7 @@ export default function ProjectCard({
           <img
             id="image"
             className="img-fluid text-decoration-none col-12"
-            src={srcImage}
+            src={imgUrl}
             title={name} alt={name}
             width="auto" height="350px"
             style={styles.img}>

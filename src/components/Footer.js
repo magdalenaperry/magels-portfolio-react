@@ -22,10 +22,10 @@ export default function Footer() {
               <a className="col-12 text-decoration-none text-secondary" href="https://github.com/magdalenaperry"><FaGithub /></a>
             </span>
             <span className="fs-2 me-4">
-              <a className="col-12 text-decoration-none text-secondary" href="https://github.com/magdalenaperry"><FaLinkedin /></a>
+              <a className="col-12 text-decoration-none text-secondary" href="https://www.linkedin.com/in/magdalena-perry/"><FaLinkedin /></a>
             </span>
             <span className="fs-2 me-4">
-              <a className="col-12 text-decoration-none text-secondary" href="https://github.com/magdalenaperry"><FaStackOverflow /></a>
+              <a className="col-12 text-decoration-none text-secondary" href="https://stackoverflow.com/users/17484808/magdalena-perry"><FaStackOverflow /></a>
             </span>
    
           </div>
