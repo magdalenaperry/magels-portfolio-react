@@ -13,7 +13,7 @@ export default function Resume() {
     <>
     <div style={styles.padding}>
         <ul className='list-group container pb-5' >
-          <h2 class="titles mt-5 text-uppercase text-center"> Proficiencies:</h2>
+          <h2 class="titles mt-5 text-uppercase text-center"> Proficiencies</h2>
           <li className='list-group-item'>HTML</li>
           <li className='list-group-item'>CSS</li>
           <li className='list-group-item'>JavaScript</li>

@@ -9,7 +9,7 @@ export default function Contact() {
       <div className="container pb-5">
         <section className="mb-4">
 
-          <h2 className=" titles h1-responsive font-weight-bold text-center my-4 text-uppercase text-small">Contact Me</h2>
+          <h2 className=" titles h1-responsive font-weight-bold text-center my-5 text-uppercase text-small">Contact Me</h2>
           <div className="row">
             <div className="col-md-9 mb-md-0 mb-5">
               <form id="contact-form" name="contact-form" action="mail.php" method="POST">

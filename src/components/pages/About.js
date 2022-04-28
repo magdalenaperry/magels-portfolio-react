@@ -5,7 +5,7 @@ export default function About() {
     <div>
 
       <section className="row px-5 pt-3 pb-5 text-center">
-        <h2 className=" titles h1-responsive font-weight-bold text-center my-4 text-uppercase text-small">about me</h2>
+        <h2 className=" titles h1-responsive font-weight-bold text-center my-5 text-uppercase text-small">about me</h2>
         <p className="col-12 text-center px-5 par-spacing pb-5">
           I am a twenty-seven year old woman living in <strong>Charlotte, North Carolina</strong>.
           I am an alumna of <strong>Salem College</strong>, where I earned degrees in <strong>Biology</strong> and 
