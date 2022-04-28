@@ -4,7 +4,7 @@ import { FaDownload } from 'react-icons/fa';
 
 const styles = {
   padding: {
-    paddingBottom: "100px"
+    paddingBottom: "400px"
   }
 }
 
