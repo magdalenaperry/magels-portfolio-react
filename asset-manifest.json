@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/magels-portfolio-react/static/css/main.aef93f4c.css",
-    "main.js": "/magels-portfolio-react/static/js/main.23b52da1.js",
+    "main.js": "/magels-portfolio-react/static/js/main.abd1b81c.js",
     "static/media/cosmic-dust.png": "/magels-portfolio-react/static/media/cosmic-dust.9125ec3182f7c7c58a86.png",
     "static/media/chiron.png": "/magels-portfolio-react/static/media/chiron.020f1fc3cc772dfa39f7.png",
     "static/media/portfolio.png": "/magels-portfolio-react/static/media/portfolio.b28404f2245608b46024.png",
@@ -12,10 +12,10 @@
     "static/media/magdalena-perry-resume.pdf": "/magels-portfolio-react/static/media/magdalena-perry-resume.f74b57ac0d57d4772c88.pdf",
     "index.html": "/magels-portfolio-react/index.html",
     "main.aef93f4c.css.map": "/magels-portfolio-react/static/css/main.aef93f4c.css.map",
-    "main.23b52da1.js.map": "/magels-portfolio-react/static/js/main.23b52da1.js.map"
+    "main.abd1b81c.js.map": "/magels-portfolio-react/static/js/main.abd1b81c.js.map"
   },
   "entrypoints": [
     "static/css/main.aef93f4c.css",
-    "static/js/main.23b52da1.js"
+    "static/js/main.abd1b81c.js"
   ]
 }
