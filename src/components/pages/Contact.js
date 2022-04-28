@@ -6,7 +6,7 @@ import { FaEnvelope } from "react-icons/fa";
 export default function Contact() {
   return (
     <>
-      <div className="container">
+      <div className="container pb-5">
         <section className="mb-4">
 
           <h2 className=" titles h1-responsive font-weight-bold text-center my-4 text-uppercase text-small">Contact Me</h2>
@@ -71,7 +71,7 @@ export default function Contact() {
 
             </div>
 
-            <div className="col-md-3 text-center">
+            <div className="col-md-3 text-center pb-5">
               <ul className="list-unstyled mb-0 text-secondary">
                 <li> < FaMapMarkerAlt />
                 </li>
