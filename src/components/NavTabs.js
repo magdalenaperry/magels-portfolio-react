@@ -15,13 +15,13 @@ function NavTabs({ currentPage, handlePageChange }) {
     <ul className="nav nav-tabs text-center navItems">
       <li className="nav-item py-3">
         <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
+          href="#about"
+          onClick={() => handlePageChange('About')}
           //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
 
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-          Home
+          About
         </a>
       </li>
         <li className="nav-item py-3">
